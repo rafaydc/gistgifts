@@ -1,4 +1,3 @@
-![Header](https://yourimageurl.com/header.png)
 
 # Hello, I'm Rafay
 
@@ -8,7 +7,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/yourusername/yourrepository)
 ![GitHub license](https://img.shields.io/github/license/yourusername/yourrepository)
 
-Welcome to my GitHub! I'm Rafay, an After Effects editor extraordinaire. Subscribe to [Syfx96](https://www.youtube.com/channel/yourchannelid) on YouTube for some amazing content!
+Welcome to my GitHub! I'm Rafay, an After Effects editor extraordinaire. Subscribe to [Syfx96]((https://www.youtube.com/@Syfx_96) on YouTube for some amazing content!
 
 ## About Me
 
