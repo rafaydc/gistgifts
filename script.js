@@ -1,128 +1,124 @@
+(() => {
 const products = [
     {
-        id: 1,
-        name: 'PRODUCT 1',
-        description: 'Description for product 1',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/189_1701935858_65717af244f57_9414_2-40624440192-1341552884839.jpg',
-        price: 1100,
-        oldPrice: 1400,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/files/luminox-3051-bo-men-s-navy-seal-colormark-dive-watch-rugged-blackout-swiss-made-timepiece-my-gift-stop-3_600x.jpg?v=1716807510",
+        "brand": "LUMINOX",
+        "description": "Luminox 3051.BO Men's Navy SEAL Colormark Dive Watch ",
+        "oldPrice": "$495.00",
+        "newPrice": "$185.94",
+        "save": "SAVE 62%"
     },
     {
-        id: 2,
-        name: 'PRODUCT 2',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/232_1701935858_65717af28a7a9_9415_2-744935917087-1607653211875.jpg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/files/luminox-3051-bo-men-s-navy-seal-colormark-dive-watch-rugged-blackout-swiss-made-timepiece-my-gift-stop-2_600x.jpg?v=1716807509",
+        "brand": "CASIO",
+        "description": "Casio GA100-1A1 Men's G-Shock Black resin Strap Watch",
+        "oldPrice": "$110.00",
+        "newPrice": "$74.84",
+        "save": "SAVE 32%"
     },
     {
-        id: 2,
-        name: 'PRODUCT 3',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/917_1701935755_65717a8be081a_2165_2-1369905397740-114433303075.jpeg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/products/luminox-3059-evo-navy-seal-colormark-dive-watch-my-gift-stop-2_600x.jpg?v=1716800914",
+        "brand": "Luminox",
+        "description": "Luminox 3059 EVO Navy SEAL Colormark Dive Watch",
+        "oldPrice": "$$445.00",
+        "newPrice": "$198.94",
+        "save": "SAVE 55%"
     },
     {
-        id: 2,
-        name: 'PRODUCT 4',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/9_1701935756_65717a8c39ffe_2166_2-549500243293-129591180524.jpeg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/products/swarovski-women-s-bangle-swarovski-symbolic-blue-and-white-crystals-or-5171991-my-gift-stop-3_600x.jpg?v=1716713912",
+        "brand": "Swarovski",
+        "description": "Swarovski Women's Bangle - Swarovski Symbolic Blue and White Crystals | 5171991",
+        "oldPrice": "$$125.00",
+        "newPrice": "$76.60",
+        "save": "SAVE 39%"
     },
     {
-        id: 1,
-        name: 'PRODUCT 1',
-        description: 'Description for product 1',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/800_1701935756_65717a8c7e7dd_2167_2-1109913221643-1587565671134.jpeg',
-        price: 1100,
-        oldPrice: 1400,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/products/swarovski-women-s-pendant-with-chain-eternal-flower-crystals-or-5512662-my-gift-stop-4_600x.jpg?v=1716745761",
+        "brand": "Swarovski",
+        "description": "Swarovski Women's Bracelet - Melt Your Heart Yellow Gold Plated",
+        "oldPrice": "$129.00",
+        "newPrice": "$94.94",
+        "save": "SAVE 26%"
     },
     {
-        id: 2,
-        name: 'PRODUCT 2',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/9_1701935756_65717a8c39ffe_2166_2-549500243293-129591180524.jpeg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/products/swarovski-women-s-bracelet-melt-your-heart-yellow-gold-plated-or-5446015-my-gift-stop-4_600x.jpg?v=1716772444",
+        "brand": "Swarovski",
+        "description": "Swarovski Women's Bracelet - Melt Your Heart Yellow Silver Plated",
+        "oldPrice": "$110.00",
+        "newPrice": "$74.84",
+        "save": "SAVE 32%"
     },
     {
-        id: 2,
-        name: 'PRODUCT 3',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/186_1701935768_65717a98c113f_3462_2-621850738797-1357977030593.jpeg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        "image": "https://www.mygiftstop.com/cdn/shop/products/sterling-silver-anchor-by-the-yard-bracelet-my-gift-stop_600x.jpg?v=1716771462",
+        "brand": "Swarovski",
+        "description": "Swarovski Women's Bracelet - Melt Your Heart Gold Plated",
+        "oldPrice": "$99.00",
+        "newPrice": "$39.94",
+        "save": "SAVE 60%"
     },
-    {
-        id: 2,
-        name: 'PRODUCT 4',
-        description: 'Description for product 2',
-        image: 'https://d16aymak0y9zsb.cloudfront.net/Tesoro/product/1080x1080/07122023/953_1701935769_65717a9919cc2_3463_2-608697426434-1168216653796.jpeg',
-        price: 900,
-        oldPrice: 1200,
-        sale: true
+        {
+        "image": "https://theflowerstudio.pk/wp-content/uploads/2017/06/anniversary-3.webp",
+        "brand": "Greeting Card",
+        "description": "Add a FREE Anniversary Greeting Card to your order.",
+        "oldPrice": "",
+        "newPrice": "Free",
+        "save": ""
     },
 ];
 
-function createProductCard(product) {
-    const card = document.createElement('div');
-    card.classList.add('product-card');
-    card.dataset.id = product.id;
 
+const container = document.querySelector('.card-container');
+
+products.forEach(product => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    
     card.innerHTML = `
-        ${product.sale ? "<span class='sale'>sale</span>" : ""}
-        <i class='bx bx-heart heart'></i>
-        <img src="${product.image}" alt="${product.name}">
-        <button class="quick-buy">QUICK BUY</button>
+        <a href="#"> <img src="${product.image}" alt="${product.brand}"> </a>
         <div class="details">
-            <a href="/product-details.html?id=${product.id}">
-                <h3 id="pname">${product.name}</h3>
-                <p>${product.description}</p>
-                <div>
-                    <span class="price">$${product.price}</span>
-                    ${product.oldPrice ? `<span class="old-price">$${product.oldPrice}</span>` : ""}
-                </div>
-            </a>
+            <a href="#" class="brand-link"><h4>${product.brand}</h4></a>
+            <p>${product.description}</p>
+            <div class="price-container">
+                <p class="old-price">${product.oldPrice}</p>
+                <p class="price">${product.newPrice}</p>
+                <p class="save">${product.save}</p>
+            </div>
         </div>
     `;
-
-    // Add event listeners
-    card.querySelector('.quick-buy').addEventListener('click', function() {
-        document.getElementById('popup').classList.add('active');
-    });
-
-    card.querySelector('.heart').addEventListener('click', function() {
-        this.classList.toggle('active');
-    });
-
-    return card;
-}
-
-function populateProductGrid(products) {
-    const productGrid = document.getElementById('product-grid');
-    products.forEach(product => {
-        const card = createProductCard(product);
-        productGrid.appendChild(card);
-    });
-}
-
-// Initialize the product grid
-populateProductGrid(products);
-
-// Popup close functionality
-document.querySelector('.popup .close-popup').addEventListener('click', function() {
-    document.getElementById('popup').classList.remove('active');
+    
+    container.appendChild(card);
 });
 
-document.querySelector('.popup-overlay').addEventListener('click', function() {
-    document.getElementById('popup').classList.remove('active');
+let isDragging2 = false;
+let startX2;
+let scrollLeft2;
+
+container.addEventListener('mousedown', (e) => {
+    isDragging2 = true;
+    startX2 = e.pageX - container.offsetLeft;
+    scrollLeft2 = container.scrollLeft;
+    container.classList.add('no-select'); 
 });
+
+container.addEventListener('mouseleave', () => {
+    if (isDragging2) {
+        isDragging2 = false;
+        container.classList.remove('no-select'); // Enable text selection
+    }
+});
+
+container.addEventListener('mouseup', () => {
+    if (isDragging2) {
+        isDragging2 = false;
+        container.classList.remove('no-select'); // Enable text selection
+    }
+});
+
+container.addEventListener('mousemove', (e) => {
+    if (!isDragging2) return;
+    e.preventDefault();
+    const x = e.pageX - container.offsetLeft;
+    const walk = (x - startX2) * 1; // Adjust scroll speed
+    container.scrollLeft = scrollLeft2 - walk;
+});
+})();

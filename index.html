@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -18,91 +19,99 @@
     <div class="header-content-top">
         <div class="content">
             <span id="text225">Gist Gifts Deliver All Over Pakistan - Free Delivery All Over Pakistan</span>
-            <span><img width="15px" id="topbar" src="imgs/phone.png" alt=""><i class="fas fa-phone-square-alt"></i> (+92)0334-9038408 </span>
-            <span><img width="17px" id="topbar" src="imgs/email.png" alt=""><i class="fas fa-envelope-square"></i>gistgifts@gmail.com</span>
+            <span class="contact-info">
+                <img width="15px" id="topbar" src="imgs/phone.png" alt="">
+                <i class="fas fa-phone-square-alt"></i> (+92)0334-9038408
+            </span>
+            <span class="contact-info">
+                <img width="17px" id="topbar" src="imgs/email.png" alt="">
+                <i class="fas fa-envelope-square"></i> gistgifts@gmail.com
+            </span>
         </div>
     </div>
-    <div class="container-fluid d-flex align-items-center justify-content-center py-3">
-        <div class="row w-100 align-items-center">
+    
+    <div class="sticky-container">
+        <div id="giftgisthead" class="container-fluid d-flex align-items-center justify-content-center py-3">
+          <div class="row w-100 align-items-center">
             <div class="col-12 text-center text-md-left d-flex align-items-center">
-                <a href="index.html">
+              <a href="index.html">
                 <div class="img">
-                    <img id="first" src="imgs/Logo.png" alt="">
+                  <img id="first" src="imgs/Logo.png" alt="">
                 </div>
-                <h1 class="h1 ml-3">Gist Gifts</h1></a>
+                <h1 class="h1 ml-3">Gist Gifts</h1>
+              </a>
             </div>
+          </div>
         </div>
-    </div>
-    <nav class="navbar navbar-expand-lg" style="background-color: #ffffff;">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <div class="line"></div>
+      
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(9 54 75); color: white ;" >
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="giftItemsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Gift Items
-                    </a>
-                    <div class="dropdown-menu mega-menu" aria-labelledby="giftItemsDropdown">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 1</a>
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 2</a>
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 3</a>
-                                </div>
-                            </div>
-                        </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="giftItemsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Gift Items
+                </a>
+                <div class="dropdown-menu mega-menu" aria-labelledby="giftItemsDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 1</a>
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 2</a>
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 3</a>
+                      </div>
                     </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="giftItemsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Explore Brands
-                    </a>
-                    <div class="dropdown-menu mega-menu" aria-labelledby="giftItemsDropdown">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 1</a>
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 2</a>
-                                    <a id="subcat1" class="dropdown-item" href="#">Sub Category 3</a>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="exploreBrandsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Explore Brands
+                </a>
+                <div class="dropdown-menu mega-menu" aria-labelledby="exploreBrandsDropdown">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 1</a>
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 2</a>
+                        <a id="subcat1" class="dropdown-item" href="#">Sub Category 3</a>
+                      </div>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Location</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
             </ul>
-        </div>
-    </nav>
+          </div>
+        </nav>
+      </div>
 
-    <div class="image-container-wrapper">
-        <div class="image-container">
-            <img src="imgs/banner.jpg" alt="Image Description">
-            <div class="content-center">
-                <h2 id="bannertext1">Share Happiness</h2>
-                <h2 id="bannertext2">With Gist Gifts</h2>
-                <a href="your-link.html" class="btn-custom">SHOP HERE</a>
-            </div>
+      
+      <div class="banner-section ">
+        <img src="imgs/blue gradient.png" alt="Banner Image" class="banner-bg">
+        <div class="banner-text">
+          <h1 class="banner-title">Buy Gifts For Your Loved Ones</h1>
+          <p class="banner-subtitle">Save Up To 40% OFF</p>
+          <button class="shop-button">Shop Now</button>
         </div>
-        <div class="image-container2">
-            <img src="imgs/sidebanner.jpg" alt="Second Image">
-            <div class="text-overlay">
-                <a href=""><h3>Gifts From Your Heart</h3></a>
-            </div>
-        </div>
-    </div>
+      </div>
+      
+    
 
-    <div class="gb-container gb-container-a5287546">
-        <div class="gb-inside-container">
+    <div  class="gb-container gb-container-a5287546" style="background-color: rgb(209, 243, 255);">
+        <div data-aos="fade-left" class="gb-inside-container" >
             <div class="gb-grid-wrapper">
                 <div class="gb-grid-column">
                     <div class="gb-container wow fadeInDown" data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: fadeInDown;">
@@ -155,11 +164,70 @@
         </div>
     </div>
 
-    <section class="our-brands">
-        <h2>OUR BRANDS</h2>
-        <div class="brands-container">
+
+    <div data-aos="fade-left" class="container">
+        <div class="row product-banner">
+          <div class="col-lg-6 large-image">
+            <a href="#bracelet">
+              <img src="imgs/menwatch.webp" alt="Men Watches" class="img-fluid">
+            </a>
+            <div class="product-name">
+              <a href="#bracelet">Men's Watches</a>
+            </div>
+          </div>
+          <div class="col-lg-6 small-images">
+            <div class="row">
+              <div class="col-6 small-image">
+                <a href="#watch">
+                  <img src="imgs/bracelets.jpg" alt="Bracelets" class="img-fluid">
+                </a>
+                <div class="product-name">
+                  <a href="#watch">Bracelets</a>
+                </div>
+              </div>
+              <div class="col-6 small-image">
+                <a href="#greeting-card">
+                  <img src="imgs/cacks.jpg" alt="Cakes" class="img-fluid">
+                </a>
+                <div class="product-name">
+                  <a href="#greeting-card">Cakes</a>
+                </div>
+              </div>
+              <div class="col-6 small-image">
+                <a href="#product3">
+                  <img src="imgs/mugs.jpg" alt="Mugs" class="img-fluid">
+                </a>
+                <div class="product-name">
+                  <a href="#product3">Mugs</a>
+                </div>
+              </div>
+              <div class="col-6 small-image">
+                <a href="#product4">
+                  <img src="imgs/cards.jpg" alt="Greeting Cards" class="img-fluid">
+                </a>
+                <div class="product-name">
+                  <a id="greet" href="#product4">Greeting Cards</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <a href="cards.html" class="btn btn-grey">Cards →</a>
+        <a href="bracelets.html" class="btn btn-grey">Bracelets →</a>
+        <a href="watches.html" class="btn btn-grey">Watches →</a>
+        <a href="cakes.html" class="btn btn-grey">Cakes →</a>
+        <a href="mugs.html" class="btn btn-grey">Mugs →</a>
+      </div>
+      
+
+      <section class="our-brands">
+        <h2>Featured on        </h2>
+        <div class="brands-container" data-aos="fade-left">
             <a href="brand1-link.html" class="brand">
-                <img id="ham" src="imgs/humburger.svg">
+                <img id="ham" src="imgs/humburger.svg" alt="Brand 1">
             </a>
             <a href="brand2-link.html" class="brand">
                 <img id="shutter" src="imgs/shutter.webp" alt="Brand 2">
@@ -169,29 +237,48 @@
             </a>
         </div>
     </section>
-
-    <header class="header">
-        <h1>Bracelets By</h1>
-        <img src="imgs/shutter.webp" alt="Bracelets Image" class="header-img">
-    </header>
-
-    <div class="product-grid" id="product-grid">
-        <!-- Cards will be dynamically inserted here -->
-    </div>
     
-    <div class="popup" id="popup">
-        <div class="popup-overlay"></div>
-        <div class="popup-content">
-            <i class='bx bx-x close-popup'></i>
-            <p>Item added to your cart!</p>
-            <div class="button-group">
-                <button class="view-cart">View Cart</button>
-                <button class="checkout">Checkout</button>
-            </div>
+    <h1 class="header1">Bestselling Products Across The Website</h1>
+
+    <div data-aos="fade-right" class="card-container" onclick="handleClick(event)">
+  </div>
+
+  <div class="banner">
+    <div class="container">
+      <div data-aos="fade-right" class="row">
+        <div class="col-6">
+          <h2 class="head">PREMIER PRODUCTS</h2>
+          <ul class="para">
+            <li>Gist Gifts is an authorized dealer of many watches, committed to delivering authenticity and excellence.</li>
+            <li>Our professional team is dedicated to delivering not just products but an experience, with rapid shipping across the U.S. and convenient options globally.</li>
+            <li>Our experts guide you to the perfect choice, underpinned by authenticity and a solid satisfaction guarantee.</li>
+          </ul>
         </div>
+        <div class="col-6">
+          <h2 class="head" >OUTSTANDING SERVICE</h2>
+          <ul class="para">
+            <li>Gist Gifts is your trusted source for a variety of luxury items, including watches, writing instruments, perfumes, and sunglasses.</li>
+            <li>We cater to all your gifting needs for any occasion, from New Year's to Christmas, Valentine's Day to birthdays.</li>
+            <li>Shop with us for the perfect gift, complete with rapid shipping and a satisfaction guarantee.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
+  </div>
+   
+  <h1 style="margin-top: 80px; margin-bottom: 40px;" class="header1">Trending Products Across The Website</h1>
+ 
+
+  <div class="card-container1" onclick="handleClick(event)">
+  </div>
+
     <script src="script.js"></script>
+    <script src="trending.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </body>
+<script>
+    AOS.init();
+  </script>
+  
 </html>
